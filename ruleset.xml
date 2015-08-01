@@ -4,4 +4,11 @@
 
   <!-- Include the whole PSR-2 standard -->
   <rule ref="PSR2" />
+
+  <!-- Override indent spacing from 4 to 2 spaces -->
+  <rule ref="Generic.WhiteSpace.ScopeIndent">
+    <properties>
+      <property name="indent" value="2"/>
+    </properties>
+  </rule>
 </ruleset>
