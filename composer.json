@@ -1,0 +1,12 @@
+{
+    "name": "fuegas/vanilla-psr",
+    "description": "A modified ruleset for Coding Style checks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferdi van der Werf",
+            "email": "efcm@vdwerf.eu"
+        }
+    ],
+    "require": {}
+}
