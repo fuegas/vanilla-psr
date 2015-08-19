@@ -8,7 +8,7 @@
   <!-- Override indent spacing from 4 to 2 spaces -->
   <rule ref="Generic.WhiteSpace.ScopeIndent">
     <properties>
-      <property name="indent" value="2"/>
+      <property name="indent" value="2" />
     </properties>
   </rule>
   <rule ref="Squiz.Functions.MultiLineFunctionDeclaration">
@@ -17,6 +17,11 @@
     </properties>
   </rule>
   <rule ref="PSR2.Methods.FunctionCallSignature">
+    <properties>
+      <property name="indent" value="2" />
+    </properties>
+  </rule>
+  <rule ref="PSR2.ControlStructures.SwitchDeclaration">
     <properties>
       <property name="indent" value="2" />
     </properties>

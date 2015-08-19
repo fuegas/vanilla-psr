@@ -28,4 +28,14 @@ class PsrTest
       false ||
       true;
   }
+
+  public function multilineSwitch()
+  {
+    switch('one') {
+      case 'one':
+        return true;
+      case 'two':
+        return false;
+    }
+  }
 }
