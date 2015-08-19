@@ -7,4 +7,4 @@ It is based on PSR-2.
 * Allow indenting with 2 spaces instead of 4.
 
 ## Known issues:
-* Indenting in multiline function calls or function definitions requires 4 spaces instead of the 2 we want.
+* None for now. When you find an issue, please [create a ticket](https://bitbucket.org/fuegas/vanilla-psr/issues/new).
