@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Vanilla PSR">
+  <description>Coding standard for vanilla PSR.</description>
+
+  <file>tests/PsrTest.php</file>
+
+  <rule ref="vanilla-psr.xml"/>
+</ruleset>
