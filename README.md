@@ -66,6 +66,8 @@ phpcs: {
 # Changelog
 
 ## Next
+
+## 1.2.0
  - Fix standard paths so they can be detected and included
 
 ## 1.1
