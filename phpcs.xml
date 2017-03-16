@@ -4,5 +4,5 @@
 
   <file>tests/PsrTest.php</file>
 
-  <rule ref="vanilla-psr.xml"/>
+  <rule ref="vanilla-psr/ruleset.xml"/>
 </ruleset>

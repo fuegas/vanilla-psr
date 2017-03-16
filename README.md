@@ -38,9 +38,18 @@ If you only want to type `phpcs` you can create the file `phpcs.xml` in the root
   <file>tests/*.php</file>
   <file>tests/**/*.php</file>
 
-  <rule ref="<dir_to_ruleset>/vanilla-psr.xml"/>
+  <rule ref="<dir_to_ruleset>/vanilla-psr/ruleset.xml"/>
 </ruleset>
 ````
+
+If you want to use the standard from cli you can use the following command:
+
+```
+vendor/bin/phpcs \
+  --standard=vanilla-psr \
+  --runtime-set installed_paths vendor/fuegas/vanilla-psr \
+  tests
+```
 
 ## Grunt
 
@@ -49,12 +58,15 @@ If you use Grunt to automate the check of coding style standards, the following 
 ````javascript
 phpcs: {
   options: {
-    standard: './vendor/fuegas/vanilla-psr/vanilla-psr.xml',
+    standard: './vendor/fuegas/vanilla-psr/vanilla-psr/ruleset.xml',
   }
 }
 ````
 
 # Changelog
+
+## Next
+ - Fix standard paths so they can be detected and included
 
 ## 1.1
 
